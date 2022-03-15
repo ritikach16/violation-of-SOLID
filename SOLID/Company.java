@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package SOLID;
 public class Company extends Product {
 
@@ -27,4 +28,9 @@ public class Company extends Product {
     void display(){
         System.out.println(name + " of price " + price);
     }
+=======
+public abstract class Company extends Packing{
+     public abstract String laptopName();
+      public abstract int price();
+>>>>>>> 78bea6ae2a809fe036a9d13cba90510c46ad024b
 }
